@@ -1,0 +1,27 @@
+/* CSS Document */
+.ui-grid-a{
+	margin-bottom: 40px;
+border-bottom: solid 1px #5CBEE2;
+padding-bottom: 40px;}
+
+.tieude {
+color: #C5B6B7;
+background: #125E36 none repeat-x;
+padding: 04px 20px 4px 10px;
+border-top: 1px solid #d5d5d5;
+width: 100%;
+margin-left: -15px;
+border-left: 10px solid #6699cc;
+}
+.form {
+	margin-bottom:10px;
+	border-bottom: solid 1px #5CBEE2;
+	
+
+}
+.thongtin{
+	float:left
+}
+.ui-field-contain div.ui-slider {
+width: 53%;
+}

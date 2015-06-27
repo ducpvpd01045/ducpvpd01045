@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jqm-demos.css">
+
+
+</head> 
+<body> 
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page" data-url="panel-responsive-page1">
+   <div data-role="header" data-theme="a">
+    
+        <h1><a href="index.html" rel="external"><img class="logo"  src="images/2U_ICO_1390483732.jpg" width="66" height="66" ><br/></a>PV-Game - Giải Trí Cho Smartphone</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
+        <div data-role="navbar" data-theme="b">
+    <ul>
+        <li><a href="#" class="ui-btn-active"><img src="images/androi.png" width="36" height="36" ><br/>Android</a></li>
+        <li><a href="#" ><img src="images/ios.png" width="36" height="36" ><br/>IOS</a></li>
+        <li><a href="#"><img src="images/wp.png" width="36" height="36" ><br/>WindowsPhone</a></li>
+    </ul>
+</div>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+    <div class="content-secondary">
+        <ul data-role="listview" data-inset="true">
+   <li data-theme="b" data-icon="arrow-d" class="ui-li ui-li-static ui-btn-up-b ui-first-child">Thể loại trò chơi</li>
+    <li><a href="thonghop.html" rel="external">Tổng Hợp</a></li>
+    <li><a href="duaxe.html" rel="external">Đua Xe</a></li>
+    <li><a href="chienthuat.html" rel="external">Chiến Thuật</a></li>
+    <li><a href="nhapvai.html" rel="external">Nhập Vai</a></li>
+    <li><a href="doikhang.html" rel="external">Đối Kháng</a></li>
+</ul> 
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Tin Tức Game<span class="ui-li-count">2</span></li>
+    <li><a href="index.html">
+    <img class="tingame" src="images/t1.jpg" width="80" height="80">
+    <h2> MMOFPS </h2>
+    <p><strong>Cận cảnh MMOFPS đỉnh cao Survarium ngày mở cửa tự do</strong></p>
+    <p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+        <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+    </a></li>
+    <li><a href="index.html">
+    <img class="tingame" src="images/t2.jpg" width="80" height="80">
+    <h2>Cabal</h2>
+    <p><strong>Cabal chính là cái tên hot nhất làng game Việt tuần qua</strong></p>
+    <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+        <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+    </a></li>
+    <li><a href="index.html">
+    <img class="tingame" src="images/t3.jpg" width="80" height="80">
+    <h2>Eclipse War Online </h2>
+    <p><strong>Game nhập vai Eclipse War Online chính thức mở cửa</strong></p>
+    <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+        <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+    </a></li>
+    <li><a href="index.html">
+    <img class="tingame" src="images/t4.jpg" width="80" height="80">
+    <h2>Mad Max</h2>
+    <p><strong>Mad Max tung trailer hấp dẫn mới</strong></p>
+    <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+        <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+    </a></li>
+</ul>
+ </div> 
+ <div class="content-primary">
+ <h2 id="tieude" >Game Chiến Thuật Mới Cập Nhật</h2>
+ <ul data-role="listview" data-filter="true" data-filter-placeholder="Search Game" data-inset="true">
+     <li><a href="12.html" rel="external" class="noidung1">
+        <img class="anhchitiet" src="images/tam-quoc1.jpg">
+        <h2> Tam Quốc for Android 2.8</h2>
+        <p>Tam Quốc Mobi - Game chiến thuật đỉnh cao trên smartphone...</p>
+        <div class="rating-icon">
+            <span class="average-rating-stars average-rating-stars-3"></span>
+            <span class="votes">1132</span>
+        </div></a>
+    </li>
+    <li><a href="13.html" rel="external" class="noidung1">
+        <img class="anhchitiet" src="images/de-che105.png">
+        <h2> Đế Chế Soha for Android 2.0 </h2>
+        <p>Là một game thủ thành đỉnh cao dành cho di động, xoay quanh về xây dựng, phát triến đế chế và tấn công các thế lực khác....</p>
+        <div class="rating-icon">
+            <span class="average-rating-stars average-rating-stars-3"></span>
+            <span class="votes">1132</span>
+        </div></a>
+    </li>
+    <li><a href="14.html" rel="external" class="noidung1">
+        <img class="anhchitiet" src="images/kieu-hung1.png">
+        <h2> Kiêu Hùng for Android 1.2 </h2>
+        <p>gMO Kiêu Hùng là game nhập vai chiến thuật trên smartphone do Soha Game phát hành độc quyền tại Việt Nam. Game lấy bối cảnh vào thời suy vong của đời Đông – Hán, sự phân tranh giữa ba thế lực Ngụy – Ngô – Thục....</p>
+        <div class="rating-icon">
+            <span class="average-rating-stars average-rating-stars-3"></span>
+            <span class="votes">1132</span>
+        </div></a>
+    </li>
+</ul>
+ 
+    
+ </div>    
+    </div><!-- /content -->
+    <div data-role="footer"  data-theme="d">
+		<p class="jqm-version">ducpvpd01045</p>
+		<p></p>
+	</div>
+    <div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+    
+        <ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#panel-responsive-page2">Trang Chủ</a></li>
+                <li><a href="#panel-responsive-page2">Game IOS</a></li>
+                <li><a href="#panel-responsive-page2">Game Android</a></li>
+                <li><a href="#panel-responsive-page2">Game Windows phone</a></li>
+                <li><a href="#panel-responsive-page2">Liên Hệ</a></li>
+                <li><a href="#panel-responsive-page2">Bảng Xếp Hạng</a></li>
+            
+        </ul>
+      
+    </div><!-- /panel -->
+    <div data-role="panel" data-position="right" data-display="reveal" data-theme="b" id="add-form">
+        <form class="userform">
+            <h2>Login</h2>
+            <label for="name">Username:</label>
+            <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+            <div class="ui-grid-a">
+                <div class="ui-block-a" ><input type="submit" value="Login" data-theme="b">
+    </div>
+                <div class="ui-block-b" >
+    <a href="Dangki.html"><input type="reset" value="Đăng Kí" data-theme="b"></a></div>
+            </div>
+        </form>
+    </div><!-- /panel -->
+    
+</div>
+</body>
+</html>
